@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 60px;
+    padding: 2px 15px;
+}
+#slides {
+    height: 80vh;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.slides-img {
+    height: 89vh;
+    width: 100vw;;
+}
+
+.navbar-nav {
+    width: 40%;
+    font-size: 16px;
+}
+
+
