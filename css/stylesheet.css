@@ -3,26 +3,38 @@
     padding: 0;
 }
 
+.landingPage {
+    background-image: url("https://res.cloudinary.com/xrole/image/upload/v1571411982/BlueFlameIndoors/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+}
+
+.landingPage:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(0,0,0,.4);
+    height: 85.5vh;
+  }
+
 .logo {
     height: 60px;
     padding: 2px 15px;
 }
-#slides {
-    height: 80vh;
-}
 
-.carousel-item {
-    height: 100%;
-}
-
-.slides-img {
-    height: 89vh;
-    width: 100vw;;
-}
 
 .navbar-nav {
     width: 40%;
     font-size: 16px;
 }
 
+.welcome-text-container {
+    position: absolute;
+    color: white;
+    margin: 15% 0 0 40%;
+    text-align: center;
+}
 
