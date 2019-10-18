@@ -7,28 +7,19 @@
     height: 60px;
     padding: 2px 15px;
 }
-#slides {
-    height: 80vh;
-}
 
-.carousel-item {
-    height: 100%;
-}
-
-.slides-img {
-    height: 89vh;
-    width: 100vw;;
-}
 
 .navbar-nav {
     width: 40%;
     font-size: 16px;
 }
+
 body {
-    background-image: url("img/background.jpg");
+    background-image: url("https://res.cloudinary.com/xrole/image/upload/v1571411982/BlueFlameIndoors/background.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 85vh;
 }
 
 
