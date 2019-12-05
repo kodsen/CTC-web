@@ -3,26 +3,381 @@
     padding: 0;
 }
 
+#ca {
+    color: white !important;
+}
+
+
+.landingPage {
+    background-image: url("https://res.cloudinary.com/xrole/image/upload/v1571411982/BlueFlameIndoors/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+}
+
+.landingPage:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(0,0,0,.4);
+    height: 87.5vh;
+}
+
+.navbar-background {
+    background-color: rgb(0, 0, 60);
+    color: white !important;
+}
+
+.navbar-background ul li a {
+    color: white !important;
+}
+
+.padding {
+    padding: 1rem;
+}
+
 .logo {
     height: 60px;
     padding: 2px 15px;
-}
-#slides {
-    height: 80vh;
-}
-
-.carousel-item {
-    height: 100%;
-}
-
-.slides-img {
-    height: 89vh;
-    width: 100vw;;
 }
 
 .navbar-nav {
     width: 40%;
     font-size: 16px;
 }
+
+.navbar-nav li a {
+    font-weight: bold;
+
+}
+
+.welcome-text-container {
+    position: absolute;
+    color: white;
+    margin: 15% 0 0 30%;
+    text-align: center;
+}
+
+.heading {
+    font-size: 60px;
+    font-family: 'Ultra', serif;
+    font-weight: bolder;
+    text-shadow: 3px 3px 10px rgb(0, 0, 60);
+}
+
+.para {
+    font-size: 28px;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    color: rgb(0, 0, 60);
+    text-shadow: 3px 3px 10px whitesmoke;
+}
+
+h1.display-5 {
+    font-family: 'Lobster', cursive;
+}
+
+.lead {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Cookie', cursive;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.border {
+    border: 1px solid rgb(0, 0, 60);
+}
+
+h2.phil {
+    color: rgb(0, 0, 60);
+    font-size: 250%;
+    font-weight: 600;
+    text-shadow: 2px 2px 6px rgb(1, 1, 22);             
+}
+
+p.content {
+    font-family: 'Josefin Slab', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.welcome {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 100%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.fun {
+    width: 100%;
+    margin-bottom: 2rem;
+    font-family: 'Coiny', cursive;
+}
+
+.gif {
+    max-width: 100%;
+}
+
+.carousel-inner img {
+    width: 95%;
+    height: 700%;
+    border: 1px solid rgb(0, 0, 60);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.carousel-inner img:hover {
+    transform: scale(1.1);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-70%);
+}
+
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 4px 4px 10px black;
+    padding-bottom: 1rem;
+    font-family: 'Coiny', cursive;
+}
+
+.box {
+    background-color: rgb(218, 218, 255);
+    background: linear-gradient(rgb(218, 218, 255),rgb(98, 98, 212));
+    width: 100%;
+    height: 650px;
+    margin-bottom: 1rem;
+    font-family: 'Coiny', cursive;
+}
+
+h6.why {
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+
+.fa-shield-alt {
+    margin: 40px;
+}
+
+.fa-bible {
+    margin: 40px;
+}
+
+.fa-chalkboard-teacher {
+    margin: 40px;
+}
+
+.fa-check-circle {
+    margin: 40px;
+}
+
+
+.all {
+    align-content: center;
+    margin: 25px;
+}
+
+.style-p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.social a {
+    font-size: 4.5rem;
+    padding: 3rem;
+}
+
+h2.connect {
+    font-family: 'Coiny', cursive;
+    font-size: 50px;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-google-plus-g {
+    color: #dd4b39;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-youtube:hover,
+.fa-instagram:hover,
+.fa-google-plus-g:hover {
+    color: #d5d5d5;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+hr.light {
+    border-top: 1px solid #646262;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+footer a {
+    color: #d5d5d5;
+}
+hr.light-100 {
+    border-top: 1px solid #646262;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*-- Media Queries --*/
+@media (max-width: 992px) {
+    .social a {
+        font-size: 4rem;
+        padding: 2rem;
+    }
+}
+    
+@media (max-width: 768px) {
+    .box {
+        background-color: rgb(218, 218, 255);
+        background: linear-gradient(rgb(218, 218, 255),rgb(98, 98, 212));
+        width: 100%;
+        height: 1400px;
+        font-family: 'Coiny', cursive;
+    }
+
+    h6.why {
+        font-size: 50px;
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .flex {
+        display: grid;
+        justify-content: center;
+    }
+
+    .welcome-text-container {
+        position: absolute;
+        color: white;
+        margin: 30% 0 0 8%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .box {
+        background-color: rgb(218, 218, 255);
+        background: linear-gradient(rgb(218, 218, 255),rgb(98, 98, 212));
+        width: 100%;
+        height: 1650px;
+        font-family: 'Coiny', cursive;
+    }
+
+    h6.why {
+        font-size: 40px;
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .flex {
+        display: grid;
+        justify-content: center;
+    }
+
+    .welcome-text-container {
+        position: absolute;
+        color: white;
+        margin: 40% 0 0 0%;
+        text-align: center;
+    }
+    .heading {
+        font-size: 50px;
+        font-family: 'Ultra', serif;
+        font-weight: bolder;
+        text-shadow: 3px 3px 10px rgb(0, 0, 60);
+    }
+    
+    .para {
+        font-size: 20px;
+        font-family: 'Satisfy', cursive;
+        font-weight: bold;
+        color: rgb(0, 0, 60);
+        text-shadow: 3px 3px 10px whitesmoke;
+    }
+
+    .landingPage {
+        background-image: url("https://res.cloudinary.com/xrole/image/upload/v1571411982/BlueFlameIndoors/background.jpg");
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 75vh;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 70%;
+        transform: translateY(-70%);
+    }
+    
+    .carousel-caption h3 {
+        display: none;
+    }
+    
+    
+    
+}
+
+    
+
+
+
+
+
+
 
 
