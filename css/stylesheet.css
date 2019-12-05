@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+#ca {
+    color: white !important;
+}
+
+
 .landingPage {
     background-image: url("https://res.cloudinary.com/xrole/image/upload/v1571411982/BlueFlameIndoors/background.jpg");
     background-position: center;
@@ -139,21 +144,14 @@ p.content {
     top: 70%;
     transform: translateY(-70%);
 }
-/*---h1 of the slide
-.carousel-caption h1 {
-    font-size: 500%;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 15px rgb(0,0,60);;
-    color: 
-}
- ----*/
+
 
 .carousel-caption h3 {
-    font-size: 250%;
-    font-weight: 600;
-    text-shadow: 2px 2px 10px rgb(0, 0, 60); 
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 4px 4px 10px black;
     padding-bottom: 1rem;
+    font-family: 'Coiny', cursive;
 }
 
 .box {
@@ -166,7 +164,7 @@ p.content {
 }
 
 h6.why {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bolder;
     text-align: center;
     padding-top: 80px;
@@ -176,6 +174,24 @@ h6.why {
     display: flex;
     justify-content: center;
 }
+
+
+.fa-shield-alt {
+    margin: 40px;
+}
+
+.fa-bible {
+    margin: 40px;
+}
+
+.fa-chalkboard-teacher {
+    margin: 40px;
+}
+
+.fa-check-circle {
+    margin: 40px;
+}
+
 
 .all {
     align-content: center;
@@ -194,6 +210,7 @@ h6.why {
 
 h2.connect {
     font-family: 'Coiny', cursive;
+    font-size: 50px;
 }
 
 .fa-facebook {
@@ -253,6 +270,109 @@ hr.light-100 {
     font-size: 20px;
     font-weight: bold;
 }
+
+/*-- Media Queries --*/
+@media (max-width: 992px) {
+    .social a {
+        font-size: 4rem;
+        padding: 2rem;
+    }
+}
+    
+@media (max-width: 768px) {
+    .box {
+        background-color: rgb(218, 218, 255);
+        background: linear-gradient(rgb(218, 218, 255),rgb(98, 98, 212));
+        width: 100%;
+        height: 1400px;
+        font-family: 'Coiny', cursive;
+    }
+
+    h6.why {
+        font-size: 50px;
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .flex {
+        display: grid;
+        justify-content: center;
+    }
+
+    .welcome-text-container {
+        position: absolute;
+        color: white;
+        margin: 30% 0 0 8%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .box {
+        background-color: rgb(218, 218, 255);
+        background: linear-gradient(rgb(218, 218, 255),rgb(98, 98, 212));
+        width: 100%;
+        height: 1650px;
+        font-family: 'Coiny', cursive;
+    }
+
+    h6.why {
+        font-size: 40px;
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .flex {
+        display: grid;
+        justify-content: center;
+    }
+
+    .welcome-text-container {
+        position: absolute;
+        color: white;
+        margin: 40% 0 0 0%;
+        text-align: center;
+    }
+    .heading {
+        font-size: 50px;
+        font-family: 'Ultra', serif;
+        font-weight: bolder;
+        text-shadow: 3px 3px 10px rgb(0, 0, 60);
+    }
+    
+    .para {
+        font-size: 20px;
+        font-family: 'Satisfy', cursive;
+        font-weight: bold;
+        color: rgb(0, 0, 60);
+        text-shadow: 3px 3px 10px whitesmoke;
+    }
+
+    .landingPage {
+        background-image: url("https://res.cloudinary.com/xrole/image/upload/v1571411982/BlueFlameIndoors/background.jpg");
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 75vh;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 70%;
+        transform: translateY(-70%);
+    }
+    
+    .carousel-caption h3 {
+        display: none;
+    }
+    
+    
+    
+}
+
+    
 
 
 

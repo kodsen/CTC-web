@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>CTC Academy website</title>
-    <link href="https://fonts.googleapis.com/css?family=Cookie|Josefin+Slab|Lobster|Russo+One|Satisfy|Tangerine|Ultra&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Cookie|Lobster|Russo+One|Satisfy|Tangerine|Ultra&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Lobster|Russo+One|Satisfy|Ultra&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Satisfy&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet"> 
-    <link type="text/css" href="./css/stylesheet.css" rel="stylesheet">
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>CTC Academy website</title>
+  <link href="https://fonts.googleapis.com/css?family=Cookie|Josefin+Slab|Lobster|Russo+One|Satisfy|Tangerine|Ultra&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cookie|Lobster|Russo+One|Satisfy|Tangerine|Ultra&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Lobster|Russo+One|Satisfy|Ultra&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Satisfy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+  <link type="text/css" href="./css/stylesheet.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
   <body>
     <!-- Navbar starts here -->
     <nav class="navbar navbar-expand-md navbar-background sticky-top">
       <a class="navbar-brand" href="#"><img class="logo" src="https://res.cloudinary.com/dmcacvcz4/image/upload/v1572533063/logo_sbz7fw.png"></a>
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive">
+      <button type="button" class="navbar-toggler" id="toggler-btn" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -130,7 +129,7 @@
               <div class="carousel-item">
                 <img src="https://res.cloudinary.com/dmcacvcz4/image/upload/v1571469867/drama_gxbn9e.jpg">
                 <div class="carousel-caption">
-                  <h3>We also believe in the socail well being of 
+                  <h3>We also believe in the social well being of 
                     our students
                   </h3>
                 </div>
@@ -176,17 +175,20 @@
             <br>
             <div class="flex">
               <div class="all">
-                <i class="fal fa-book-open"></i>
+                <i class="fas fa-shield-alt fa-5x"></i>
                 <p class="style-p">Excellence and Credibility</p>
               </div>
               <div class="all">
+                <i class="fas fa-bible fa-5x"></i>
                 <p class="style-p">Spiritual and Moral Uprightness</p>
               </div>
               <div class="all">
+                <i class="fas fa-chalkboard-teacher fa-5x"></i>
                 <p class="style-p">Experienced instructors</p>
               </div>
               <div class="all">
-                <p class="style-p">Well equipped classrooms</p>
+                <i class="fas fa-check-circle fa-5x"></i>
+                <p class="style-p">Well equipped classrooms and Laboratory</p>
               </div>
             </div>
           </div>
@@ -197,7 +199,7 @@
     <div class="container-fluid padding">
       <div class="row text-center padding">
         <div class="col-12">
-          <h2 class="connect"> Connects</h2>
+          <h2 class="connect"> Connect</h2>
         </div>
         <div class="col-12 social padding">
           <a href="https://www.google.com" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -214,17 +216,24 @@
       <div class="container-fluid padding">
         <div class="row text-center">
           <div class="col-md-6">
-            <img src="https://res.cloudinary.com/dmcacvcz4/image/upload/v1572533063/logo_sbz7fw.png">
             <hr class="light">
             <div class="call">
-            <p><i class="fal fa-phone-square"></i> 555-555-5555</p>
+              <p>
+                <i class="fas fa-phone-volume"></i>
+                555-555-5555
+              </p>
             </div>
-            <p>email@ctcacademy.com</p>
-            <p>Behind Independent Cenema, Muchia </p>
-            <p>Zaria, Kaduna State.</p>
+            <p>
+              <i class="fas fa-envelope-open-text"></i>
+              email@ctcacademy.com
+            </p>
+            <p>
+              <i class="far fa-address-book"></i>
+              Behind Independent Cenema, Muchia <br>
+              Zaria, Kaduna State.
+            </p>
           </div>
           <div class="col-md-6">
-            <img src="https://res.cloudinary.com/dmcacvcz4/image/upload/v1572533063/logo_sbz7fw.png">
             <hr class="light">
             <p>Monday - Thursday: 7:30am - 2:30pm (Nursery/primary)</p>
             <p>Monday - Thursday: 7:30am - 3:30pm (Secondary)</p>
