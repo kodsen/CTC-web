@@ -397,9 +397,55 @@ hr.light-100 {
 }
 
 /* LANDSCAPE VIEW */
+
+/* iphone 6, 7, 8 plus */
 @media only screen and (max-width: 736px) and (orientation: landscape) {
     .landingPage:before {
         height: 96.5vh;
+    }
+
+    .welcome-text-container {
+        margin: 15% 0 0 15%;
+    }
+}
+
+/* smallest mobile screen size */
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+    .landingPage:before {
+        height: 98.5vh;
+    }
+
+    .welcome-text-container {
+        margin: 15% 0 0 15%;
+    }
+}
+
+/* medium mobile screen size */
+@media only screen and (max-width: 823px) and (orientation: landscape) {
+    .landingPage:before {
+        height: 95.5vh;
+    }
+
+    .welcome-text-container {
+        margin: 15% 0 0 15%;
+    }
+}
+
+/* close medium mobile screen size */
+@media only screen and (max-width: 570px) and (orientation: landscape) {
+    .landingPage:before {
+        height: 102vh;
+    }
+
+    .welcome-text-container {
+        margin: 15% 0 0 15%;
+    }
+}
+
+/* close  5 medium mobile screen size */
+@media only screen and (max-width: 667px) and (orientation: landscape) {
+    .landingPage:before {
+        height: 98.5vh;
     }
 
     .welcome-text-container {
