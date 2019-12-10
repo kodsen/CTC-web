@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #ca {
     color: white !important;
 }
@@ -47,7 +52,6 @@
 }
 
 .navbar-nav {
-    width: 40%;
     font-size: 16px;
 }
 
@@ -280,6 +284,9 @@ hr.light-100 {
         font-size: 4rem;
         padding: 2rem;
     }
+    #navbarResponsive {
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -371,10 +378,18 @@ hr.light-100 {
         display: none;
     }
 
-
-
+}
+@media screen and (min-width: 736px) and (max-width: 769px){
+    .landingPage:before {
+        height: 83.5vh;
+    }
 }
 
+@media screen and (min-width: 770px) and (max-width: 1024px){
+    .landingPage:before {
+        height: 81.5vh;
+    }
+}
 
 
 
