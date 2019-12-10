@@ -396,6 +396,12 @@ hr.light-100 {
     }
 }
 
+/* LANDSCAPE VIEW */
+@media screen (max-width: 576px) and (orientation: landscape) {
+    .welcome-text-container {
+        display: none;
+    }
+}
 
 
 
