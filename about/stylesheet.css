@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.toggle-icon {
+    color: #fff !important;
+}
 
 .padding {
     padding: 1rem;

@@ -12,6 +12,9 @@
     width: 40%;
     font-size: 16px;
 }
+.toggle-icon {
+    color: #fff !important;
+}
 
 .navbar-nav li a {
     font-weight: bold;
@@ -65,7 +68,7 @@ h1 {
     color: white;
     font-family: 'Coiny', cursive;
     font-size: 20px;
-    text-align: center; 
+    text-align: center;
     text-shadow: 3px 3px 8px black;
     line-height: 40px;
 }
