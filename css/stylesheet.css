@@ -398,25 +398,36 @@ hr.light-100 {
 
 /* LANDSCAPE VIEW */
 
-/* iphone 6, 7, 8 plus */
-@media only screen and (max-width: 736px) and (orientation: landscape) {
-    .landingPage:before {
-        height: 96.5vh;
-    }
-
-    .welcome-text-container {
-        margin: 15% 0 0 15%;
-    }
-}
-
 /* smallest mobile screen size */
-@media only screen and (max-width: 640px) and (orientation: landscape) {
+/* @media only screen and (max-width: 640px) and (orientation: landscape) {
     .landingPage:before {
         height: 98.5vh;
     }
 
     .welcome-text-container {
         margin: 15% 0 0 15%;
+    }
+} */
+
+/* ipad pro*/
+@media only screen and (max-width: 1366px) and (orientation: landscape) {
+    .landingPage:before {
+        height: 83.5vh;
+    }
+
+    .welcome-text-container {
+        margin: 25% 0 0 33%;
+    }
+}
+
+/* ipad */
+@media only screen and (max-width: 1025px) and (orientation: landscape) {
+    .landingPage:before {
+        height: 86.5vh;
+    }
+
+    .welcome-text-container {
+        margin: 22% 0 0 25%;
     }
 }
 
@@ -431,10 +442,10 @@ hr.light-100 {
     }
 }
 
-/* close medium mobile screen size */
-@media only screen and (max-width: 570px) and (orientation: landscape) {
+/* iphone 6, 7, 8 plus */
+@media only screen and (max-width: 736px) and (orientation: landscape) {
     .landingPage:before {
-        height: 102vh;
+        height: 95.5vh;
     }
 
     .welcome-text-container {
@@ -446,6 +457,17 @@ hr.light-100 {
 @media only screen and (max-width: 667px) and (orientation: landscape) {
     .landingPage:before {
         height: 98.5vh;
+    }
+
+    .welcome-text-container {
+        margin: 15% 0 0 15%;
+    }
+}
+
+/* close medium mobile screen size (iphone 5/SE) */
+@media only screen and (max-width: 570px) and (orientation: landscape) {
+    .landingPage:before {
+        height: 102vh;
     }
 
     .welcome-text-container {
