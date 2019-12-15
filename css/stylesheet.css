@@ -12,16 +12,19 @@ body {
     color: white !important;
 }
 
+.landingPage-container {
+    position: absolute;
+}
 
 .landingPage {
     background-image: url("https://res.cloudinary.com/xrole/image/upload/v1571411982/BlueFlameIndoors/background.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 75vh;
+    height: 87.5vh;
 }
 
-.landingPage:before {
+.landingPage-container:before {
     content: "";
     position: absolute;
     left: 0; right: 0;
@@ -370,7 +373,7 @@ hr.light-100 {
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 75vh;
+        /* height: 75vh; */
     }
 
     .carousel-caption {
@@ -430,68 +433,11 @@ hr.light-100 {
 
 
 /* ======================LANDSCAPE VIEW ================== */
-/* ipad pro*/
-@media only screen and (max-width: 1366px) and (orientation: landscape) {
-    .landingPage:before {
-        height: 83.5vh;
-    }
-
-    .welcome-text-container {
-        margin: 25% 0 0 33%;
-    }
-}
-
-/* ipad */
-@media only screen and (max-width: 1025px) and (orientation: landscape) {
-    .landingPage:before {
-        height: 86.5vh;
-    }
-
-    .welcome-text-container {
-        margin: 22% 0 0 25%;
-    }
-}
 
 /* medium mobile screen size */
 @media only screen and (max-width: 823px) and (orientation: landscape) {
-    .landingPage:before {
-        height: 97.5vh;
-    }
-
     .welcome-text-container {
         margin: 15% 0 0 15%;
     }
 }
 
-/* iphone 6, 7, 8 plus */
-@media only screen and (max-width: 736px) and (orientation: landscape) {
-    .landingPage:before {
-        height: 95.5vh;
-    }
-
-    .welcome-text-container {
-        margin: 15% 0 0 15%;
-    }
-}
-
-/* close  5 medium mobile screen size */
-@media only screen and (max-width: 667px) and (orientation: landscape) {
-    .landingPage:before {
-        height: 98.5vh;
-    }
-
-    .welcome-text-container {
-        margin: 15% 0 0 15%;
-    }
-}
-
-/* close medium mobile screen size (iphone 5/SE) */
-@media only screen and (max-width: 570px) and (orientation: landscape) {
-    .landingPage:before {
-        height: 102vh;
-    }
-
-    .welcome-text-container {
-        margin: 15% 0 0 15%;
-    }
-}
