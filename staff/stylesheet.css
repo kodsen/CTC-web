@@ -35,7 +35,6 @@ h1 {
     font-size: 60px;
     font-family: 'Ultra', serif;
     font-weight: bolder;
-    text-shadow: 3px 3px 10px black;
 }
 
 .team-card {
@@ -79,13 +78,13 @@ h1 {
 }
 
 .social a {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     padding: 3rem;
 }
 
 h2.connect {
     font-family: 'Coiny', cursive;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .fa-facebook {
@@ -145,6 +144,58 @@ hr.light-100 {
 
 .footer {
     font-family: 'Josefin Slab', serif;
-    font-size: 20px;
     font-weight: bold;
+}
+
+/*========================= Media Queries ===============--*/
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 35px;
+        font-family: 'Ultra', serif;
+        font-weight: bolder;
+        color: rgb(0, 0, 60);
+        margin: 20px;
+    }
+        
+    .social a {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+    
+    h2.connect {
+        font-family: 'Coiny', cursive;
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 576px) {
+        h1 {
+        font-size: 25px;
+        font-family: 'Ultra', serif;
+        font-weight: bolder;
+        color: rgb(0, 0, 60);
+        margin: 15px;
+    }
+    
+    .social a {
+        font-size: 1.5rem;
+        padding: .5rem;
+    }
+    
+    h2.connect {
+        font-family: 'Coiny', cursive;
+        font-size: 30px;
+    }
+    
+    footer {
+        font-size: 18px;
+    }
 }

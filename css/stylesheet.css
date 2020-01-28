@@ -214,13 +214,13 @@ h6.why {
 }
 
 .social a {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     padding: 3rem;
 }
 
 h2.connect {
     font-family: 'Coiny', cursive;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .fa-facebook {
@@ -324,6 +324,17 @@ hr.light-100 {
         margin: 30% 0 0 8%;
         text-align: center;
     }
+
+    .social a {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+    
+    h2.connect {
+        font-family: 'Coiny', cursive;
+        font-size: 35px;
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -372,7 +383,6 @@ hr.light-100 {
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat;
-        /* height: 75vh; */
     }
 
     .carousel-caption {
@@ -385,6 +395,19 @@ hr.light-100 {
         display: none;
     }
 
+    .social a {
+        font-size: 1.5rem;
+        padding: .5rem;
+    }
+    
+    h2.connect {
+        font-family: 'Coiny', cursive;
+        font-size: 30px;
+    }
+
+    footer {
+        font-size: 18px;
+    }
 }
 
 /* ======================LANDSCAPE VIEW ================== */
@@ -395,4 +418,3 @@ hr.light-100 {
         margin: 15% 0 0 15%;
     }
 }
-
